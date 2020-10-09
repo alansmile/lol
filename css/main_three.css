@@ -1,0 +1,565 @@
+/*赛事中心*/
+#main_bigthree{
+    width: 100%;
+    min-width: 1358px;
+    height: 752px;
+    background-color: whitesmoke;
+    position: relative;
+}
+    #main_bigthree .main_three{    
+        position: relative;
+        width: 1358px;
+        min-width: 1358px;
+        height: 752px;
+        margin: 0 auto;
+    }
+    #main_bigthree .main_three .top{
+        position: absolute;
+        margin-top: 60px;
+        width: 100%;
+        height: 35px;
+    }
+    #main_bigthree .main_three .top ul.top2{
+        position: absolute;
+        height: 34px;
+        width: 1218px;
+        left: 140px;
+        border-bottom: 1px #aca8a8 solid;
+        list-style: none;
+    }
+    #main_bigthree .main_three .top ul.top2 li.top2_item{
+        margin-right: 54px;
+    }
+    #main_bigthree .main_three .top span.top3{
+        position: absolute;
+        right: 75px;
+        width: auto;
+        height: 35px;
+        font-size: 16px;
+        font-weight: 700;
+        color: #676767;
+        line-height: 35px;
+        cursor: pointer;
+    }
+    #main_bigthree .main_three .top span.top3 img{
+        vertical-align: middle;
+    }
+    #main_bigthree .main_three .top span.top4,#main_bigfour .main_four .top span.top4{
+        right: 10px;
+    }
+    #main_bigthree .main_three ul.gamecontent{
+        position: absolute;
+        top: 120px;
+        width: 1358px;
+        height: 572px; 
+        list-style: none;
+    }
+    #main_bigthree .main_three ul.gamecontent li.gamecontent_item{
+        position: absolute;
+        width: 1358px;
+        height: 572px;
+        opacity: 0;
+    }
+    #main_bigthree .main_three ul.gamecontent li.gamecontent_item.active{
+        opacity: 1;
+        z-index: 3;
+    }
+    #main_bigthree .main_three ul.gamecontent li.gamecontent_item span.wait{
+        position: absolute;
+        top: 45%;
+        width: 1358px;
+        height: 50px;
+        text-align: center;
+    }
+    #main_bigthree .main_three ul.gamecontent li.gamecontent_item span.wait span.p{
+        position: absolute;
+        top: 20px;
+        font-weight: 700;
+        font-size: 16px;
+        color: #29a2b4;
+    }
+    #main_bigthree .main_three ul.gamecontent li.gamecontent_item .first{
+        position: relative;
+        width: 534px;
+        height: 572px;
+        float: left;
+    }
+    #main_bigthree .main_three ul.gamecontent li.gamecontent_item .first span.goleft{
+        position: absolute;
+        top: 100px;
+        left: -30px;
+        z-index: 9;
+        opacity: 0;
+    }
+    #main_bigthree .main_three ul.gamecontent li.gamecontent_item .first span.goright{
+        position: absolute;
+        top: 100px;
+        right: -30px;
+        z-index: 9;
+        opacity: 1;
+    }
+    #main_bigthree .main_three ul.gamecontent li.gamecontent_item .first .recent{
+        position: absolute;
+        top: 0;
+        width: 534px;
+        height: 235px;
+        overflow: hidden;
+    }
+    #main_bigthree .main_three ul.gamecontent li.gamecontent_item .first .recent ul.swiper{
+        position: absolute;
+        left: 0px;
+        top: 35px;
+        width: 2136px;
+        height: 200px;
+        list-style: none;
+        transition: left 0.3s;
+    }
+    #main_bigthree .main_three ul.gamecontent li.gamecontent_item .first .recent ul.swiper li.swiper_item{
+        position: relative;
+        float: left;
+        width: 259px;
+        height: 200px;
+        margin-right: 16px;
+        background: #fff;
+    }
+    #main_bigthree .main_three ul.gamecontent li.gamecontent_item .first .recent ul.swiper li.swiper_item span.topbar{
+        position: absolute;
+        top: 0;
+        width: 100%;
+        height: 28px;
+        font-size: 16px;
+        color: #fff;
+        line-height: 28px;
+        background-color: #bfa57d;
+    }
+    #main_bigthree .main_three ul.gamecontent li.gamecontent_item .first .recent ul.swiper li.swiper_item span.topbar p.topbar1{
+        float: left;
+        font-weight: 700;
+        margin-left: 12px;
+        font-size: 16px;
+        line-height: 28px;
+    }
+    #main_bigthree .main_three ul.gamecontent li.gamecontent_item .first .recent ul.swiper li.swiper_item span.topbar p.topbar2{
+        font-size: 16px;
+        line-height: 28px;
+        float: right;
+        margin-right: 12px;
+    }
+    #main_bigthree .main_three ul.gamecontent li.gamecontent_item .first .recent ul.swiper li.swiper_item span.topbar p.topbar3{
+        float: right;
+        margin-right: 14px;
+        font-size: 16px;
+        line-height: 28px;
+    }
+    #main_bigthree .main_three ul.gamecontent li.gamecontent_item .first .recent ul.swiper li.swiper_item span.teama,#main_bigthree .main_three ul.gamecontent li.gamecontent_item .first .recent ul.swiper li.swiper_item span.teamb{    
+        top: 38px;
+        width: 50px;
+        height: 85px;
+        overflow: hidden;
+    }
+    #main_bigthree .main_three ul.gamecontent li.gamecontent_item .first .recent ul.swiper li.swiper_item span.teama{
+        position: absolute;
+        left: 16px;
+    }
+    #main_bigthree .main_three ul.gamecontent li.gamecontent_item .first .recent ul.swiper li.swiper_item span.teamb{
+        position: absolute;
+        right: 16px;
+    }
+    #main_bigthree .main_three ul.gamecontent li.gamecontent_item .first .recent ul.swiper li.swiper_item span.teama span.team1 img,#main_bigthree .main_three ul.gamecontent li.gamecontent_item .first .recent ul.swiper li.swiper_item span.teamb span.team1 img{
+        position: absolute;
+        top: 0;
+        width: 50px;
+        height: 50px;
+    }
+    #main_bigthree .main_three ul.gamecontent li.gamecontent_item .first .recent ul.swiper li.swiper_item span.teama span.team2,#main_bigthree .main_three ul.gamecontent li.gamecontent_item .first .recent ul.swiper li.swiper_item span.teamb span.team2{
+        position: absolute;
+        top: 60px;
+        text-indent: 10px;
+        color: #385155;
+        font-size: 18px;
+        line-height: 20px;
+    }
+    #main_bigthree .main_three ul.gamecontent li.gamecontent_item .first .recent ul.swiper li.swiper_item span.score{
+        position: absolute;
+        left: 34%;
+        top: 54px;
+        width: 86px;
+        height: 40px;
+        color: #171717;
+        font-weight: 700;
+        text-align: center;
+        line-height: 40px;
+        font-size: 34px;
+    }
+    #main_bigthree .main_three ul.gamecontent li.gamecontent_item .first .recent ul.swiper li.swiper_item span.waiting{
+        position: absolute;
+        left: 34%;
+        top: 94px;
+        width: 86px;
+        height: 29px;
+        line-height: 29px;
+        text-align: center;
+        box-sizing: border-box;
+        border: 1px #bb9a6c solid;
+        color: #bb9a6c;
+        background: #fff;
+        cursor: pointer;
+    }
+    #main_bigthree .main_three ul.gamecontent li.gamecontent_item .first .recent ul.swiper li.swiper_item span.waiting:hover{
+        background: #8a7a64;
+        color: #fff;
+    }
+    #main_bigthree .main_three ul.gamecontent li.gamecontent_item .first .recent ul.swiper li.swiper_item span.p1,#main_bigthree .main_three ul.gamecontent li.gamecontent_item .first .recent ul.swiper li.swiper_item span.p2{
+        position: absolute;
+        top: 145px;
+        width: 100%;
+        line-height: 1.5;
+        font-size: 12px;
+        text-align: center;
+        color: #727272;
+    }
+    #main_bigthree .main_three ul.gamecontent li.gamecontent_item .first .recent ul.swiper li.swiper_item span.p2{
+        top: 164px;
+    }
+    #main_bigthree .main_three ul.gamecontent li.gamecontent_item .first .recent span.tops,#main_bigthree .main_three ul.gamecontent li.gamecontent_item .second span.tops{
+        position: absolute;
+        top: 0;
+        width: 100%;
+        height: 35px;
+        line-height: 35px;
+        text-align: left;
+    }
+    #main_bigthree .main_three ul.gamecontent li.gamecontent_item .first .recent span.tops p.tops1,#main_bigthree .main_three ul.gamecontent li.gamecontent_item .second span.tops{
+        display: inline-block;
+        color: #29a2b4;
+        font-size: 16px;
+        font-weight: 700;
+    }
+    #main_bigthree .main_three ul.gamecontent li.gamecontent_item .first .recent span.tops p.tops2{
+        display: inline-block;
+        text-indent: 10px;
+        color: #676767;
+        font-size: 16px;
+        font-weight: 400;
+    }
+    #main_bigthree .main_three ul.gamecontent li.gamecontent_item .first .rank{
+        position: absolute;
+        bottom: 0;
+        width: 534px;
+        height: 292px;
+    }
+    #main_bigthree .main_three ul.gamecontent li.gamecontent_item .first .rank span.tops{
+        position: absolute;
+        top: 0;
+        width: 100%;
+        height: 35px;
+    }
+    #main_bigthree .main_three ul.gamecontent li.gamecontent_item .first .rank span.tops p.top_name{
+        position: absolute;
+        left: 0;
+        font-size: 18px;
+        color: #0b0b0b;
+        line-height: 35px;
+    }
+    #main_bigthree .main_three ul.gamecontent li.gamecontent_item .first .rank span.tops ul.top_title{
+        position: absolute;
+        left: 94px;
+        width: 440px;
+        height: 35px;
+        list-style: none;
+        box-sizing: border-box;
+        border-bottom: 1px #e0e2e2 solid;
+        font-size: 18px;
+        color: #0b0b0b;
+        line-height: 35px;
+    }
+    #main_bigthree .main_three ul.gamecontent li.gamecontent_item .first .rank span.tops ul.top_title li.title_item{
+        float: left;
+        width: auto;
+        min-width: 40px;
+        text-align: center;
+        height: 35px;
+        margin-right: 50px;
+        color: #676767;
+        font-size: 16px;
+        line-height: 35px;
+        cursor: pointer;
+    }
+    #main_bigthree .main_three ul.gamecontent li.gamecontent_item .first .rank span.tops ul.top_title li.title_item.active,#main_bigthree .main_three ul.gamecontent li.gamecontent_item .first .rank span.tops ul.top_title li.title_item:hover{
+        border-bottom: 2px #29a2b4 solid;
+    }
+    #main_bigthree .main_three ul.gamecontent li.gamecontent_item .first .rank .rank_content{
+        position: absolute;
+        top: 56px;
+        width: 100%;
+        height: 236px;
+    }
+    #main_bigthree .main_three ul.gamecontent li.gamecontent_item .first .rank .rank_content span.rank_title{
+        position: absolute;
+        top: 0;
+        width: 534px;
+        height: 32px;
+        line-height: 32px;
+        box-sizing: border-box;
+        padding: 0 18px;
+        color: #151517;
+        font-size: 16px;
+        font-weight: 400;
+        background-color: #e0e0e0;
+    }
+    #main_bigthree .main_three ul.gamecontent li.gamecontent_item .first .rank .rank_content span.rank_title p.p1{
+        width: 44px;
+        float: left;
+    }
+    #main_bigthree .main_three ul.gamecontent li.gamecontent_item .first .rank .rank_content span.rank_title p.p2{
+        float: left;
+        width: 124px;
+        margin-left: 69px;
+    }
+    #main_bigthree .main_three ul.gamecontent li.gamecontent_item .first .rank .rank_content span.rank_title p.p3{
+        float: left;
+        width: 100px;
+        text-align: center;
+        margin-left: 45px;
+    }
+    #main_bigthree .main_three ul.gamecontent li.gamecontent_item .first .rank .rank_content span.rank_title p.p4{
+        float: right;
+        width: 44px;
+        text-align: center;
+    }
+    #main_bigthree .main_three ul.gamecontent li.gamecontent_item .first .rank .rank_content ul.rank_list{
+        position: absolute;
+        bottom: 0;
+        width: 534px;
+        height: 204px;
+        list-style: none; 
+        background: #fff;
+        opacity: 0;
+    }
+    #main_bigthree .main_three ul.gamecontent li.gamecontent_item .first .rank .rank_content ul.rank_list.active{
+        opacity: 1;
+        z-index: 6;
+    }
+    #main_bigthree .main_three ul.gamecontent li.gamecontent_item .first .rank .rank_content ul.rank_list li.rank_item{
+        position: relative;
+        left: 18px;
+        width: 498px;
+        height: 50px;
+        line-height: 50px;
+        box-sizing: border-box;
+        border-bottom: 1px #e0e2e2 solid; 
+    }
+    #main_bigthree .main_three ul.gamecontent li.gamecontent_item .first .rank .rank_content ul.rank_list li.rank_item strong.s1{
+        font-size: 24px;
+        color: #b79e76;
+        float: left;
+        width: 44px;
+        height: 46px;
+        text-align: center;
+        font-family: tttgbnumber,sans-serif;
+    }
+    #main_bigthree .main_three ul.gamecontent li.gamecontent_item .first .rank .rank_content ul.rank_list li.rank_item span.s2{
+        float: left;
+        width: 124px;
+        margin-left: 69px;
+        font-size: 16px;
+        color: #151517;
+    }
+    #main_bigthree .main_three ul.gamecontent li.gamecontent_item .first .rank .rank_content ul.rank_list li.rank_item span.s2 img{
+        width: 25px;
+        height: 25px;
+        vertical-align: middle;
+    }
+    #main_bigthree .main_three ul.gamecontent li.gamecontent_item .first .rank .rank_content ul.rank_list li.rank_item span.s3{
+        float: left;
+        width: 100px;
+        text-align: center;
+        margin-left: 45px;
+        font-size: 16px;
+        color: #5f8d94;
+    }
+    #main_bigthree .main_three ul.gamecontent li.gamecontent_item .first .rank .rank_content ul.rank_list li.rank_item span.s4{
+        float: right;
+        width: 44px;
+        text-align: center;
+        font-size: 16px;
+        color: #5f8d94;
+    }
+    #main_bigthree .main_three ul.gamecontent li.gamecontent_item .second{
+        position: relative;
+        right: 10px;
+        width: 726px;
+        height: 572px;
+        float: right;
+    }
+    #main_bigthree .main_three ul.gamecontent li.gamecontent_item .second .gamelist{
+        position: absolute;
+        top: 35px;
+        left: 0;
+        width: 260px;
+        height: 537px;
+    }
+    #main_bigthree .main_three ul.gamecontent li.gamecontent_item .second .gamelist .gamelistcontent{
+        position: relative;
+        width: 100%;
+        height: 115px;
+        margin-bottom: 25.6px;
+    }
+    #main_bigthree .main_three ul.gamecontent li.gamecontent_item .second .gamelist .gamelistcontent span.info{
+        position: absolute;
+        top: 0;
+        width: 100%;
+        height: 20px;
+        margin-bottom: 7px;
+    }
+    #main_bigthree .main_three ul.gamecontent li.gamecontent_item .second .gamelist .gamelistcontent span.info span.status{
+        float: left;
+        height: 15px;
+        line-height: 15px;
+        padding: 0 2px;
+        font-size: 12px;
+        color: #fff;
+        border-radius: 2px;
+        margin-top: 3px;
+        background-color: #e68f21;
+    }
+    #main_bigthree .main_three ul.gamecontent li.gamecontent_item .second .gamelist .gamelistcontent span.info span.time{
+        float: left;
+        margin-left: 10px;
+        height: 15px;
+        line-height: 15px;
+        color: #676767;
+        font-size: 12px;
+        margin-top: 3px;
+    }
+    #main_bigthree .main_three ul.gamecontent li.gamecontent_item .second .gamelist .gamelistcontent span.info span.herf{
+        float: right;
+        padding: 0 6px;
+        box-sizing: border-box;
+        border: 1px solid;
+        font-size: 14px;
+        height: 20px;
+        line-height: 18px;
+        margin-left: 10px;
+        border-color: #bb9a6c;
+        color: #bb9a6c;
+        cursor: pointer;
+    }
+    #main_bigthree .main_three ul.gamecontent li.gamecontent_item .second .gamelist .gamelistcontent span.info span.herf:hover{
+        background: #c49656;
+        color: #fff;
+    }
+    #main_bigthree .main_three ul.gamecontent li.gamecontent_item .second .gamelist .gamelistcontent span.team1{
+        position: absolute;
+        top: 20px;
+        width: 260px;
+        height: 45px;
+        background-color: #faf6ec;
+    }
+    #main_bigthree .main_three ul.gamecontent li.gamecontent_item .second .gamelist .gamelistcontent span.team1 img,#main_bigthree .main_three ul.gamecontent li.gamecontent_item .second .gamelist .gamelistcontent span.team2 img{
+        display: inline-block;
+        vertical-align: middle;
+        width: 45px;
+        height: 45px;
+        margin: 0 15px 0 15px;  
+    }
+    #main_bigthree .main_three ul.gamecontent li.gamecontent_item .second .gamelist .gamelistcontent span.team1 strong,#main_bigthree .main_three ul.gamecontent li.gamecontent_item .second .gamelist .gamelistcontent span.team2 strong{
+        color: #676767;
+        font-size: 14px;
+    }
+    #main_bigthree .main_three ul.gamecontent li.gamecontent_item .second .gamelist .gamelistcontent span.team1 span.score,#main_bigthree .main_three ul.gamecontent li.gamecontent_item .second .gamelist .gamelistcontent span.team2 span.score{
+        float: right;
+        width: 23px;
+        height: 45px;
+        text-align: center;
+        line-height: 45px;
+        color: #fff;
+        background-color: #d1a662;
+        font-size: 16px;
+    }
+    #main_bigthree .main_three ul.gamecontent li.gamecontent_item .second .gamelist .gamelistcontent span.team2{
+        position: absolute;
+        top: 70px;
+        width: 260px;
+        height: 45px;
+        background-color: #faf6ec;
+    }
+    #main_bigthree .main_three ul.gamecontent li.gamecontent_item .second .link{
+        position: absolute;
+        top: 35px;
+        left: 260px;
+        width: 80px;
+        height: 537px;
+    }
+    #main_bigthree .main_three ul.gamecontent li.gamecontent_item .second .link span.link_list{
+        position: relative;
+        display: block;
+        width: 80px;
+        height: 115px;
+        margin-bottom: 25.6px;
+    }
+    #main_bigthree .main_three ul.gamecontent li.gamecontent_item .second .link span.link_list span.list1{
+        position: absolute;
+        top: 32px;
+        left: 0;
+        width: 40px;
+        height: 51px;
+        background: whitesmoke;
+        box-sizing: border-box;
+        border: 1px solid #504e4e;
+        border-left: none;
+    }
+    #main_bigthree .main_three ul.gamecontent li.gamecontent_item .second .link span.link_list span.list2{
+        position: absolute;
+        top: 57.5px;
+        right: 0;
+        width: 40px;
+        height: 25.5px;
+        background: whitesmoke;
+        box-sizing: border-box;
+        border: 1px solid #504e4e;
+        border-left: none;
+        border-bottom: none;
+        border-right: none;
+    }
+
+    #main_bigthree .main_three ul.gamecontent li.gamecontent_item .second .winer{
+        position: absolute;
+        top: 35px;
+        right: 0;
+        width: 386px;
+        height: 537px;
+    }
+    #main_bigthree .main_three ul.gamecontent li.gamecontent_item .second .winer p.u_winer{
+        position: relative;
+        width: 100%;
+        height: 115px;
+        margin-bottom: 25.6px;
+        color: #676767;
+        font-size: 14px;
+    }
+    #main_bigthree .main_three ul.gamecontent li.gamecontent_item .second .winer p.u_winer span.l_winer{
+        position: absolute;
+        top: 30px;
+        left: 0;
+        width: 100%;
+        height: 45px;
+        background-color: #fff;
+    }
+    #main_bigthree .main_three ul.gamecontent li.gamecontent_item .second .winer p.u_winer span.l_winer i{
+        float: left;
+        height: 45px;
+        width: 4px;
+        background-color: #1da6ba;
+    }
+    #main_bigthree .main_three ul.gamecontent li.gamecontent_item .second .winer p.u_winer span.l_winer img{
+        display: inline-block;
+        vertical-align: middle;
+        width: 45px;
+        height: 45px;
+        margin: 0 15px 0 15px;      
+    }
+    #main_bigthree .main_three ul.gamecontent li.gamecontent_item .second .winer p.u_winer span.l_winer strong{
+        color: #000;
+        font-size: 18px;
+    }

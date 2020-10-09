@@ -1,0 +1,203 @@
+/*FANART创作馆*/
+#main_bigfive{
+    width: 100%;
+    min-width: 1358px;
+    height: 544px;
+    background-color: whitesmoke;
+    position: relative;
+}
+    #main_bigfive .main_five{    
+        position: relative;
+        width: 1358px;
+        min-width: 1358px;
+        height: 544px;
+        margin: 0 auto;
+        padding-top: 60px;
+        z-index: 1;
+    }
+    #main_bigfive .main_five .fanart_left{
+        position: relative;
+        float: left;
+        width: 820px;
+        height: 424px;
+    }
+    #main_bigfive .main_five .fanart_left .top{
+        position: absolute;
+        top: 0;
+        width: 100%;
+        height: 35px;
+        background-color: whitesmoke;
+    }
+    #main_bigfive .main_five .fanart_left .top span.top2{
+        right: 10px;
+    }
+    #main_bigfive .main_five .fanart_left ul.content{
+        position: absolute;
+        top: 56px;
+        width: 820px;
+        height: 368px;
+        list-style: none;
+        z-index: 0;
+    }
+    #main_bigfive .main_five .fanart_left ul.content li.content_item{
+        position: relative;
+        margin-right: 36px;
+        float: left;
+        width: 176px;
+        height: 176px;
+        overflow: hidden; 
+        cursor: pointer;   
+        z-index: 0;  
+        margin-bottom: 16px;
+    }
+    #main_bigfive .main_five .fanart_left ul.content li.content_item img.img{
+        position: absolute;
+        top: 0;
+        width: 176px;
+        height: 176px;
+        transition: all 0.2s;
+        z-index: 1;
+    }
+    #main_bigfive .main_five .fanart_left ul.content li.content_item img.img:hover{
+        transform: scale(1.3);
+    }
+    #main_bigfive .main_five .fanart_left ul.content li.content_item p.hidden{
+        position: absolute;
+        bottom: -66px;
+        width: 176px;
+        height: 66px;
+        background: black;
+        opacity: 0;
+        z-index: 3;
+        cursor: pointer;
+        transition: all 0.4s;
+    }
+    #main_bigfive .main_five .fanart_left ul.content li.content_item p.hidden span.p1{
+        position: absolute;
+        top: 10px;
+        font-size: 14px;
+        width: 120px;
+        height: 20px;
+        padding-left: 10px;
+        color: #ffffff;
+    }
+    #main_bigfive .main_five .fanart_left ul.content li.content_item p.hidden span.p2{
+        position: absolute;
+        bottom: 10px;
+        font-size: 14px;
+        width: 120px;
+        height: 20px;
+        padding-left: 10px;
+        color: #ffffff;
+    }
+    #main_bigfive .main_five .fanart_left ul.content li.content_item p.hidden span.p2 img{
+        position: relative;
+        width: 22px;
+        height: 22px;
+    }
+    #main_bigfive .main_five .fanart_right{
+        position: relative;
+        float: right;
+        width: 496px;
+        height: 424px;
+    }
+    #main_bigfive .main_five .fanart_right .right1{
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        width: 241px;
+        height: 411px;
+        background: url(../image/main_five/11.png)no-repeat;
+        cursor: pointer;
+        transition: all 0.3s;
+    }
+    #main_bigfive .main_five .fanart_right .right1:hover{
+        bottom: 10px;
+    }
+    #main_bigfive .main_five .fanart_right ul.right2{
+        position: absolute;
+        list-style: none;
+        right: 0;
+        bottom: 0;
+        width: 241px;
+        height: 368px;
+    }
+    #main_bigfive .main_five .fanart_right ul.right2 li.right2_item1,#main_bigfive .main_five .fanart_right ul.right2 li.right2_item2,#main_bigfive .main_five .fanart_right ul.right2 li.right2_item3{
+        width: 241px;
+        height: 87px;
+        margin-bottom: 16px;
+        cursor: pointer;
+    }
+    #main_bigfive .main_five .fanart_right ul.right2 li.right2_item1 p,#main_bigfive .main_five .fanart_right ul.right2 li.right2_item2 p,#main_bigfive .main_five .fanart_right ul.right2 li.right2_item3 p{
+        color: #fff;
+        font-size: 16px;
+        line-height: 87px;
+        text-align: center;
+    }
+    #main_bigfive .main_five .fanart_right ul.right2 li.right2_item1{
+        background: url(../image/main_five/12.jpg)no-repeat;
+    }
+    #main_bigfive .main_five .fanart_right ul.right2 li.right2_item2{
+        background: url(../image/main_five/13.jpg)no-repeat;
+    }
+    #main_bigfive .main_five .fanart_right ul.right2 li.right2_item3{
+        background: url(../image/main_five/14.jpg)no-repeat;
+    }
+    #main_bigfive .main_five .fanart_right ul.right2 li.right2_item4{
+        width: 230px;
+        height: 59px;
+        background: #ab8e66;
+        margin: 0 auto;
+        cursor: pointer;
+    }
+    #main_bigfive .main_five .fanart_right ul.right2 li.right2_item4:hover{
+        background: #c2975b;
+    }
+    #main_bigfive .main_five .fanart_right ul.right2 li.right2_item4 p{
+        color: #fff;
+        font-size: 16px;
+        line-height: 59px;
+        text-align: center;
+    }
+    #main_bigfive .main_five .fanart_right .container{
+        position: absolute;
+        right: 5.5px;
+        top: 424px;
+        width: 230px;
+        height: 266px;
+        background: #fff;
+        overflow: hidden;
+        opacity: 0;
+        transition: all 0.3s;
+    }
+    #main_bigfive .main_five .fanart_right .container ul.contaniners{
+        position: absolute;
+        list-style: none;
+        width: 230px;
+        height: 606px;
+        overflow-y: scroll;
+    }
+    #main_bigfive .main_five .fanart_right .container ul.contaniners li.contaniners_item{
+        width: 230px;
+        height: 20px;
+        line-height: 20px;
+        margin-bottom: 5px;
+        font-size: 12px;
+        color: #676767;
+        text-indent: 16px;
+        cursor: pointer;
+        background: #fff;
+    }
+    #main_bigfive .main_five .fanart_right .container ul.contaniners li.contaniners_item:hover{
+        background: #b1adad;
+    }
+    #main_bigfive .main_five .fanart_right .container ul.contaniners::-webkit-scrollbar{
+        width: 6px;
+        height: 340px;
+    }
+    #main_bigfive .main_five .fanart_right .container ul.contaniners::-webkit-scrollbar-thumb{
+        border-radius: 20%;
+        width: 6px;
+        height: auto;
+        background: #676767;
+    }
